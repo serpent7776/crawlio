@@ -26,7 +26,7 @@ show_usage() {
 	echo "  $0 -o 200 -- find / -name '*.txt'   # 200ms delay for open syscalls"
 }
 
-while [[ $# -gt 0 ]]; do
+while [ $# -gt 0 ]; do
 	case "$1" in
 		-h|--help)
 			show_usage
