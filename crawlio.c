@@ -1,4 +1,4 @@
-#define _POSIX_C_SOURCE 199309L
+#define _GNU_SOURCE
 #include <dlfcn.h>
 #include <stdio.h>
 #include <unistd.h>
